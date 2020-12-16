@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <title>Шифр</title>
+</head>
+<body>
+    <span class="mainText">Зашифровать текст</span>
+    <div class="mainDiv">
+        <div class="valueDiv">
+            <span class="valueInfoText">Строка которую необходимо зашифровать</span>
+            <input id="value" type="text" class="valueInput">
+        </div>
+        <div class="resultDiv">
+            <span class="resultInfoText">Результат</span>
+            <input id="result" type="text" class="valueInput resultText" disabled>
+        </div>
+        <input class="cryptButton" type="button" value="Зашифровать" onclick="crypt()">
+    </div>
+    <script src="js/prog.js"></script>
+</body>
+</html>

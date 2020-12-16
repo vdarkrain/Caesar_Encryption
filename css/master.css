@@ -1,0 +1,55 @@
+body {
+  background: #cad1d0;
+  font-family: "Ubuntu", sans-serif;
+}
+.mainText {
+  margin-left: 600px;
+  font-size: 58px;
+  font-family: "Courgette", cursive;
+}
+.mainDiv {
+  border: 10px solid #aacbcf;
+  border-radius: 20px 20px 20px 20px;
+  height: 350px;
+  width: 600px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  text-align: center;
+}
+.valueInfoText {
+  margin-top: 80px;
+  font-size: 24px;
+  display: block;
+}
+.valueInput {
+  height: 25px;
+  width: 390px;
+  text-align: center;
+  background: #ffffff;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 10px 10px 10px 10px;
+  font-size: 18px;
+  font-style: sans-serif;
+  outline: none;
+}
+.resultInfoText {
+  margin-top: 30px;
+  font-size: 24px;
+  display: block;
+}
+.cryptButton {
+  margin-top: 60px;
+  height: 40px;
+  width: 340px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 10px 10px 10px 10px;
+  background: #fdfdfd;
+  outline: none;
+}
+.cryptButton:active {
+  height: 42px;
+  width: 350px;
+}
